@@ -2,7 +2,7 @@ import React from "react";
 
 function Course({ certification, year, institution, skills }) {
   return (
-    <div className="bg-blue-50 p-4 min-h-fit">
+    <div className="bg-blue-50 p-4 min-h-fit rounded-tl-lg rounded-br-md">
       <div className="flex items-center sm:min-h-[6rem]">
         <h1 className="text-center font-bold text-green-600 text-xl sm:text-2xl   ">
           {certification}

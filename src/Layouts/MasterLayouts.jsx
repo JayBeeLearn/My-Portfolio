@@ -8,7 +8,7 @@ function MasterLayouts() {
     <>
       <div className="px-8 sm:px-16 md:px-32 py-4 flex sm:flex justify-between  bg-blue-600  items-center">
         <div className="brand w-1/2">
-          <h1 className="text-3xl font-bold text-white">Jahaziel Uko</h1>
+          <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-white">Jahaziel Uko</h1>
         </div>
 
         {/* NAVBAR CONTENTS ON SIDEBAR FOR LARGE SCREENS  */}

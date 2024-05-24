@@ -7,7 +7,7 @@
 }
 
 .skill {
-  @apply text-2xl text-center font-bold text-green-700 mb-4;
+  @apply text-xl sm:text-2xl md:text-3xl text-center font-bold text-green-700 mb-4;
 }
 
 .programming-data {

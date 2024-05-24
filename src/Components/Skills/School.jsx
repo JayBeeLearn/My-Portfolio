@@ -2,7 +2,7 @@ import React from "react";
 
 function School({ year, school, course, cgpa }) {
   return (
-    <div className="bg-blue-50 p-4 min-h-fit">
+    <div className="bg-green-50 p-4 min-h-fit rounded-tr-lg rounded-bl-md">
       <div className="flex justify-center items-center sm:min-h-[6rem]">
         <h1 className="text-center font-bold text-blue-600 text-xl sm:text-2xl   ">
           {course}

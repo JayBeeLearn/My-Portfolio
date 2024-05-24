@@ -2,7 +2,7 @@ import React from "react";
 
 function Experienence({ place, position, startYear, endYear, duties }) {
   return (
-    <div className="bg-blue-100 p-4">
+    <div className="bg-green-50 p-4 rounded-tr-lg rounded-bl-md">
       <div>
         <h1 className="text-xl font-bold text-green-600 sm:text-2xl md:text-3xl">
           {position}
