@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.try {
+  background-color: red;
+}
+
+.skill {
+  @apply text-2xl text-center font-bold text-green-700 mb-4;
+}
+
+.programming-data {
+  @apply grid  grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 min-h-fit;
+}
+
+.edu-data {
+  @apply grid  grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 min-h-fit;
+}
